@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Shauna Banning | B2B Demand Generation & ABM</title>
+<meta name="description" content="Shauna Banning turns target account lists into pipeline. ABM and demand generation programs from Outreach, Superhuman, and Shopify, with the results behind them.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Lato:wght@400;700;900&display=swap">
+<style>
+:root{--navy:#1F2A3A;--ink:#1d1d1f;--muted:#5d6470;--line:#e3e5e9;--soft:#F4F1EC;--accent:#C8925B;--blue:#3C5A80}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#fff;color:var(--ink);font:17px/1.6 Lato,system-ui,sans-serif}
+img{max-width:100%;display:block}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+h1,h2,h3{font-family:"Playfair Display",Georgia,serif;color:var(--navy);font-weight:600;margin:0;font-variant-numeric:lining-nums}
+.eyebrow{font:900 12px Lato,sans-serif;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);margin:0 0 10px}
+.btn{display:inline-block;padding:11px 20px;border-radius:999px;font-weight:700;font-size:14px;text-decoration:none;border:1.5px solid currentColor}
+/* hero */
+.hero{background:var(--navy);color:#fff;padding:72px 0 0;position:relative;overflow:hidden}
+.hero::after{content:"";position:absolute;right:-180px;top:-180px;width:520px;height:520px;border-radius:50%;background:radial-gradient(circle,rgba(200,146,91,.35),rgba(200,146,91,0) 70%)}
+.hero .top{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:40px;align-items:center;position:relative;z-index:1}
+.hero h1{color:#fff;font-size:clamp(2.6rem,6vw,4rem);line-height:1.02}
+.hero .role{font-weight:900;letter-spacing:.12em;text-transform:uppercase;font-size:13px;color:#E9C9A2;margin:14px 0 18px}
+.hero p.intro{font-size:19px;color:#dfe4ec;max-width:560px;margin:0 0 26px}
+.hero .btn{color:#fff;margin:0 8px 8px 0}
+.btn.solid{background:var(--accent);border-color:var(--accent);color:var(--navy)!important}
+.photo{justify-self:center;width:min(320px,80%);aspect-ratio:1;border-radius:50%;overflow:hidden;border:6px solid rgba(255,255,255,.12);box-shadow:0 20px 60px rgba(0,0,0,.35)}
+.photo img{width:100%;height:100%;object-fit:cover}
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));margin-top:56px;background:#fff;border-radius:16px 16px 0 0;position:relative;z-index:1}
+.stat{padding:24px 22px;border-right:1px solid var(--line)}
+.stat:last-child{border-right:0}
+.stat b{display:block;font:700 2.3rem/1 "Playfair Display",serif;color:var(--navy);font-variant-numeric:lining-nums}
+.stat span{display:block;margin-top:8px;font-size:14px;color:var(--muted);line-height:1.4}
+section{padding:72px 0}
+section.alt{background:var(--soft)}
+.head{max-width:700px;margin-bottom:34px}
+.head h2{font-size:clamp(1.8rem,4vw,2.5rem);line-height:1.1}
+.head p{color:var(--muted);margin:12px 0 0}
+/* tiers */
+.tiers{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.tier{background:#fff;border-radius:16px;padding:24px;box-shadow:0 1px 0 var(--line),0 10px 30px rgba(31,42,58,.06)}
+.tier .dot{width:52px;height:52px;border-radius:50%;display:grid;place-items:center;font:900 15px Lato;color:#fff;margin-bottom:14px}
+.tier:nth-child(1) .dot{background:var(--navy)} .tier:nth-child(2) .dot{background:var(--blue)} .tier:nth-child(3) .dot{background:var(--accent)}
+.tier h3{font-size:1.45rem}
+.tier .sz{font-size:13px;font-weight:900;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:4px 0 12px}
+.tier ul{margin:0;padding-left:18px;font-size:15px}
+.flow{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-top:20px}
+.flow div{background:var(--navy);color:#fff;border-radius:12px;padding:14px 16px;font-size:14.5px;line-height:1.4}
+.flow b{display:block;color:#E9C9A2;font:900 12px Lato;letter-spacing:.12em;text-transform:uppercase;margin-bottom:4px}
+/* case studies */
+.case{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:44px;align-items:center;margin-bottom:80px}
+.case:last-of-type{margin-bottom:0}
+.case.flip .media{order:2}
+.media{position:relative}
+.media .shot{border-radius:16px;width:100%;background:#fff;border:1px solid var(--line);box-shadow:0 20px 50px rgba(31,42,58,.16)}
+.media .inset{position:absolute;right:-14px;bottom:-22px;width:42%;border-radius:12px;border:5px solid #fff;box-shadow:0 14px 34px rgba(31,42,58,.25);aspect-ratio:4/3;object-fit:cover}
+.media .tag{position:absolute;left:14px;top:14px;background:var(--navy);color:#fff;font:900 11px Lato;letter-spacing:.12em;text-transform:uppercase;padding:7px 12px;border-radius:999px}
+.case .co{font:900 12px Lato;letter-spacing:.14em;text-transform:uppercase;color:var(--blue);margin:0 0 8px}
+.case h3{font-size:1.95rem;line-height:1.1;margin-bottom:12px}
+.case p{margin:0 0 10px;color:#33383f}
+.case p b{color:var(--navy)}
+.nums{display:grid;grid-template-columns:repeat(auto-fit,minmax(110px,1fr));gap:10px;margin-top:18px}
+.num{background:var(--soft);border-radius:12px;padding:14px 16px}
+.num b{display:block;font:700 1.7rem/1 "Playfair Display",serif;color:var(--navy);font-variant-numeric:lining-nums}
+.num span{display:block;font-size:13px;color:var(--muted);margin-top:6px}
+.team{font-size:13.5px;color:var(--muted);margin-top:40px}
+/* flip cards */
+.flips{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
+.fc{perspective:1200px;height:380px;cursor:pointer;background:none;border:0;padding:0;text-align:left;font:inherit;color:inherit}
+.fc .in{position:relative;width:100%;height:100%;transition:transform .7s;transform-style:preserve-3d}
+.fc:hover .in,.fc.on .in{transform:rotateY(180deg)}
+.fc .face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;border-radius:16px;overflow:hidden}
+.fc .front{background:var(--navy);color:#fff;padding:24px;display:flex;flex-direction:column}
+.fc .front .t{font:900 11px Lato;letter-spacing:.14em;text-transform:uppercase;color:#E9C9A2}
+.fc .front h3{color:#fff;font-size:1.5rem;line-height:1.15;margin:10px 0 10px}
+.fc .front p{font-size:14.5px;color:#cfd6e0;margin:0}
+.fc .front .r{margin-top:auto;border-top:1px solid rgba(255,255,255,.15);padding-top:14px}
+.fc .front .r b{display:block;font:700 1.9rem/1 "Playfair Display",serif;color:#fff;font-variant-numeric:lining-nums}
+.fc .front .r span{font-size:13px;color:#cfd6e0}
+.fc .front .hint{font-size:12px;color:#E9C9A2;margin-top:12px;font-weight:700}
+.fc .back{transform:rotateY(180deg);background:#fff;display:flex;flex-direction:column;border:1px solid var(--line)}
+.fc .back img{height:58%;width:100%;object-fit:cover}
+.fc .back div{padding:16px 18px;font-size:14.5px;line-height:1.45;color:#33383f}
+.fc .back b{color:var(--navy)}
+.fc:nth-child(2) .front{background:var(--blue)}
+.fc:nth-child(3) .front{background:#2B3A52}
+.fc:nth-child(4) .front{background:#7A5C3E}
+@media (prefers-reduced-motion:reduce){.fc .in{transition:none}}
+/* journey */
+.journey{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));position:relative;margin-top:10px}
+.journey::before{content:"";position:absolute;left:0;right:0;top:22px;height:3px;background:linear-gradient(90deg,var(--line),var(--accent))}
+.step{position:relative;padding:0 8px;text-align:center}
+.step i{display:block;width:16px;height:16px;border-radius:50%;background:#fff;border:3px solid var(--blue);margin:15px auto 12px;position:relative}
+.step.key i{background:var(--accent);border-color:var(--accent);width:22px;height:22px;margin-top:12px}
+.step time{display:block;font:700 15px Lato;color:var(--navy)}
+.step span{display:block;font-size:13.5px;color:var(--muted);line-height:1.35;margin-top:4px}
+.banner{margin-top:28px;border-radius:16px;overflow:hidden}
+/* kpis */
+.kgrid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:28px;align-items:start}
+.klist{display:grid;gap:14px}
+.kbox{background:#fff;border-radius:16px;padding:20px 22px;box-shadow:0 1px 0 var(--line),0 10px 30px rgba(31,42,58,.06)}
+.kbox h3{font-size:1.2rem;margin-bottom:8px}
+.kbox ul{margin:0;padding-left:18px;font-size:15px}
+.promise{background:var(--navy);color:#fff;border-radius:16px;padding:24px 26px;margin-top:28px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.promise b{display:block;color:#E9C9A2;font:900 12px Lato;letter-spacing:.12em;text-transform:uppercase;margin-bottom:6px}
+.promise p{margin:0;font-size:15px;color:#dfe4ec}
+.cap{font-size:13.5px;color:var(--muted);margin-top:10px}
+/* ai */
+.ai{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:40px;align-items:start}
+.manifesto{list-style:none;margin:0;padding:0;counter-reset:m}
+.manifesto li{counter-increment:m;position:relative;padding:0 0 18px 56px}
+.manifesto li::before{content:counter(m,decimal-leading-zero);position:absolute;left:0;top:-2px;font:700 1.6rem "Playfair Display",serif;color:var(--accent);font-variant-numeric:lining-nums}
+.manifesto b{display:block;color:var(--navy);font-size:17px}
+.manifesto span{font-size:15px;color:#33383f}
+.built{display:grid;gap:12px}
+.built div{border-left:5px solid var(--accent);background:#fff;border-radius:12px;padding:16px 18px;box-shadow:0 1px 0 var(--line)}
+.built b{color:var(--navy)}
+.built p{margin:4px 0 0;font-size:15px;color:#33383f}
+/* recent */
+.cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.card{background:#fff;border-radius:16px;padding:24px;border-left:5px solid var(--accent);box-shadow:0 1px 0 var(--line),0 10px 30px rgba(31,42,58,.06)}
+.card .co{font:900 12px Lato;letter-spacing:.14em;text-transform:uppercase;color:var(--blue);margin:0 0 6px}
+.card h3{font-size:1.3rem;margin-bottom:6px}
+.card p{margin:0;font-size:15.5px;color:#33383f}
+.card .big{font:700 1.5rem "Playfair Display",serif;color:var(--accent);font-variant-numeric:lining-nums}
+.tools{display:flex;flex-wrap:wrap;gap:10px}
+.tools span{background:#fff;border:1px solid var(--line);border-radius:999px;padding:8px 14px;font-size:14px;font-weight:700;color:var(--navy)}
+footer{background:var(--navy);color:#dfe4ec;text-align:center;padding:72px 0}
+footer h2{color:#fff;font-size:clamp(2rem,4vw,2.8rem);margin-bottom:10px}
+footer .btn{color:#fff;margin:6px}
+@media (max-width:900px){.flips{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:820px){
+  .hero .top,.case,.tiers,.cards,.kgrid,.ai,.promise{grid-template-columns:1fr}
+  .flow{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .case.flip .media{order:0}
+  .media .inset{right:8px}
+  .photo{width:220px;order:-1}
+  .stats{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .stat:nth-child(2){border-right:0}
+  .journey{grid-template-columns:1fr;gap:14px}
+  .journey::before{left:22px;right:auto;top:0;bottom:0;width:3px;height:auto}
+  .step{display:grid;grid-template-columns:44px 1fr;text-align:left;align-items:start}
+  .step i{margin:4px auto 0}
+  .step time,.step span{grid-column:2}
+}
+@media (max-width:520px){.flips{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap top">
+    <div>
+      <p class="eyebrow" style="color:#E9C9A2">B2B Demand Generation &amp; ABM</p>
+      <h1>Shauna Banning</h1>
+      <p class="role">Account-Based Marketing · Demand Generation · Integrated Campaigns</p>
+      <p class="intro">I turn target account lists into pipeline. For 7+ years at Outreach, Superhuman, and Shopify, I’ve built the programs that get Sales and Marketing working the same accounts, and I measure every one by the pipeline and revenue it creates.</p>
+      <a class="btn solid" href="mailto:shaunabanning@gmail.com">Email me</a>
+      <a class="btn" href="https://www.linkedin.com/in/shaunabanning" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+    <div class="photo"><img src="img/headshot.jpg" alt="Shauna Banning"></div>
+  </div>
+  <div class="wrap">
+    <div class="stats">
+      <div class="stat"><b>$12M</b><span>annual paid media budget owned at Shopify (~1.3x ROI)</span></div>
+      <div class="stat"><b>$4.3M+</b><span>FY23 revenue influenced by Outreach’s first enterprise ABM program</span></div>
+      <div class="stat"><b>20x</b><span>return on the virtual executive lunch playbook</span></div>
+      <div class="stat"><b>24</b><span>SDR playbooks across 5 personas and 7 markets</span></div>
+    </div>
+  </div>
+</header>
+
+<section class="alt"><div class="wrap">
+  <div class="head">
+    <p class="eyebrow">How I run ABM</p>
+    <h2>Segment every rep’s book. Match the touch to the account.</h2>
+    <p>Not every account deserves the same investment. I tier each AE’s book of business with first- and third-party intent data, so the highest-value accounts get white-glove programs and everyone else still gets covered.</p>
+  </div>
+  <div class="tiers">
+    <div class="tier"><div class="dot">1:1</div><h3>1:1 · High touch</h3><p class="sz">Target accounts · ~25 per team</p><ul><li>Joint account plans with the AE</li><li>Executive experiences and private events</li><li>Account-specific ads, pages, and direct mail</li><li>Custom sequences and snippets</li></ul></div>
+    <div class="tier"><div class="dot">1:F</div><h3>1:Few · Low touch</h3><p class="sz">Tier A · clusters by industry or pain point</p><ul><li>Industry-specific ads and content</li><li>Roundtables and regional events</li><li>Segmented direct mail</li><li>Persona and industry sequences</li></ul></div>
+    <div class="tier"><div class="dot">1:M</div><h3>1:Many · Air cover</h3><p class="sz">Tier B · all named accounts</p><ul><li>Intent-based ABM display and paid social</li><li>Content syndication and webinars</li><li>Long-term nurture</li><li>Surging accounts routed to reps in one click</li></ul></div>
+  </div>
+  <div class="flow">
+    <div><b>1 · Build</b>Marketing and RevOps build the A and B lists from intent data</div>
+    <div><b>2 · Choose</b>AEs and RVPs pick their target accounts from the A list</div>
+    <div><b>3 · Activate</b>Every team runs the playbook for each tier</div>
+    <div><b>4 · Review</b>All teams review account performance every quarter</div>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <div class="head">
+    <p class="eyebrow">Playbooks that worked</p>
+    <h2>The plays, and the pipeline behind them</h2>
+    <p>Three plays from Outreach’s ABM program, one at each level of touch. Each one paired marketing with a rep sequence, so every send had a follow-up and every follow-up had a reason.</p>
+  </div>
+
+  <article class="case">
+    <div class="media"><img class="shot" src="img/play-execlunch-seq.jpg" alt="The 15-day virtual executive lunch sequence: emails, calls, LinkedIn tasks, and a Sendoso direct mail send"><span class="tag">1:1 · High touch</span><img class="inset" src="img/exec-lunch-kit.jpg" alt="Lunch kit delivered to the executive"></div>
+    <div>
+      <p class="co">Outreach · 1:1</p>
+      <h3>Virtual Executive Lunch</h3>
+      <p><b>The goal:</b> build executive relationships at our highest-priority corporate and enterprise accounts, then create and accelerate opportunities.</p>
+      <p><b>The play:</b> a 15-day sequence of manual emails, calls, and LinkedIn touches. On day one, a gourmet lunch kit shipped via Sendoso for a virtual lunch with an Outreach executive about how sales was changing. Every follow-up referenced the kit.</p>
+      <div class="nums"><div class="num"><b>20x</b><span>return on investment</span></div><div class="num"><b>$4.5M</b><span>influenced pipeline</span></div><div class="num"><b>$500K</b><span>won ARR</span></div></div>
+    </div>
+  </article>
+
+  <article class="case flip">
+    <div class="media"><img class="shot" src="img/play-aircover.jpg" alt="Custom account ad, direct mail delivery in Outreach, and the follow-up sequence"><span class="tag">1:Few · Low touch</span></div>
+    <div>
+      <p class="co">Outreach · 1:Few</p>
+      <h3>Low-Touch Air Cover + Direct Mail</h3>
+      <p><b>The goal:</b> lift top-of-funnel engagement at target accounts and set first meetings with sales managers and directors.</p>
+      <p><b>The play:</b> account-personalized LinkedIn ads (“Hi Acme, Inc.!”), a direct mail send tracked right in the rep’s Outreach timeline, and a 9-step follow-up sequence that picked up the moment the gift was delivered.</p>
+      <div class="nums"><div class="num"><b>~300%</b><span>lift in CTR on custom ads</span></div><div class="num"><b>2x</b><span>return on investment</span></div><div class="num"><b>$8M</b><span>influenced pipeline</span></div><div class="num"><b>$1.2M</b><span>won ARR</span></div></div>
+    </div>
+  </article>
+
+  <article class="case">
+    <div class="media"><img class="shot" src="img/play-meeting.jpg" alt="Coffee, a book, and a handwritten note sent before first meetings, tracked in Outreach"><span class="tag">Mid touch</span></div>
+    <div>
+      <p class="co">Outreach · direct mail</p>
+      <h3>Meeting Confirmation Play</h3>
+      <p><b>The goal:</b> get more first meetings to actually happen, and turn more of them into sales-accepted opportunities.</p>
+      <p><b>The play:</b> before a first meeting, the prospect received a copy of <i>Sales Engagement</i> with a handwritten note from their rep (plus coffee for the meeting), followed by a simple “Looking forward to our meeting tomorrow.” Built right into the SDR workflow.</p>
+      <div class="nums"><div class="num"><b>85%+</b><span>meeting hold rate</span></div><div class="num"><b>8%</b><span>increase in SAL conversion</span></div></div>
+    </div>
+  </article>
+  <p class="team">Results from programs I helped build and run as part of Outreach’s ABM team.</p>
+</div></section>
+
+<section class="alt"><div class="wrap">
+  <div class="head">
+    <p class="eyebrow">Direct mail &amp; experiences</p>
+    <h2>Sends people actually talked about</h2>
+    <p>Hover or tap a card to see the send.</p>
+  </div>
+  <div class="flips">
+    <button class="fc" aria-label="Virtual Executive Lunch Kit, flip for details"><div class="in">
+      <div class="face front"><span class="t">1:1 · Executive experience</span><h3>Virtual Exec Lunch Kit</h3><p>A gourmet lunch delivered to the executive’s door, for a virtual conversation with an Outreach leader.</p><div class="r"><b>20x</b><span>return on investment</span></div><span class="hint">Tap to see it ↻</span></div>
+      <div class="face back"><img src="img/exec-lunch-kit.jpg" alt="Lunch kit"><div><b>Why it worked:</b> it gave a senior leader a reason to block 45 minutes, and gave the rep a warm reason to follow up for two weeks.</div></div>
+    </div></button>
+    <button class="fc" aria-label="Wake Up and Smell the Outreach, flip for details"><div class="in">
+      <div class="face front"><span class="t">Meeting confirmation</span><h3>Wake Up and Smell the Outreach</h3><p>Custom-label coffee sent ahead of first meetings, paired with a rep confirmation touch.</p><div class="r"><b>85%+</b><span>meeting hold rate</span></div><span class="hint">Tap to see it ↻</span></div>
+      <div class="face back"><img src="img/coffee-label.jpg" alt="Custom coffee label" style="object-position:center 40%"><div><b>Why it worked:</b> a small, on-brand gift made the meeting feel personal, so fewer prospects no-showed.</div></div>
+    </div></button>
+    <button class="fc" aria-label="Unleash event invitation, flip for details"><div class="in">
+      <div class="face front"><span class="t">Event acquisition</span><h3>“3 Steps to Invincible”</h3><p>A printed invitation to Outreach’s Unleash sales engagement conference, sent to target accounts with a discount code.</p><div class="r"><b>Unleash</b><span>targeted event invitations</span></div><span class="hint">Tap to see it ↻</span></div>
+      <div class="face back"><img src="img/mailer.jpg" alt="Unleash event invitation mailer" style="object-position:center 60%"><div><b>Why it worked:</b> a physical invite stood out from a crowded inbox and gave reps a reason to reach out before the event.</div></div>
+    </div></button>
+    <button class="fc" aria-label="Sweet Treats, flip for details"><div class="in">
+      <div class="face front"><span class="t">Customer appreciation</span><h3>Sweet Treats</h3><p>Outreach-branded cupcakes delivered to customer teams to celebrate milestones.</p><div class="r"><b>Shared</b><span>publicly by the customer on LinkedIn</span></div><span class="hint">Tap to see it ↻</span></div>
+      <div class="face back"><img src="img/cupcakes.jpg" alt="Branded cupcakes"><div><b>Why it worked:</b> customers who feel appreciated become advocates, and this one thanked the team in a public post.</div></div>
+    </div></button>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <div class="head">
+    <p class="eyebrow">Multi-touch in action</p>
+    <h2>One enterprise account’s journey</h2>
+    <p>ABM is rarely one big moment. This target account took almost three years and more than a dozen touches across nearly every channel, then closed through the executive lunch playbook.</p>
+  </div>
+  <div class="journey">
+    <div class="step"><i></i><time>2017</time><span>LinkedIn sponsored post: first touch</span></div>
+    <div class="step"><i></i><time>2018</time><span>Content syndication, then organic search</span></div>
+    <div class="step key"><i></i><time>2019</time><span>Web demo request creates the opportunity</span></div>
+    <div class="step"><i></i><time>2019</time><span>Webinar, regional summit, segmented ABM ads</span></div>
+    <div class="step key"><i></i><time>2019</time><span>Exec meeting at a major conference accelerates the deal</span></div>
+    <div class="step"><i></i><time>2020</time><span>Custom ABM ads, video ad, virtual summit</span></div>
+    <div class="step key"><i></i><time>2020</time><span>Closed after the virtual exec lunch</span></div>
+  </div>
+  <div class="banner"><img src="img/summit.jpg" alt="Unleash Virtual Summit banner"></div>
+</div></section>
+
+<section class="alt"><div class="wrap">
+  <div class="head">
+    <p class="eyebrow">KPIs &amp; reporting</p>
+    <h2>If it doesn’t show up in pipeline, it didn’t work.</h2>
+    <p>Every program I run has a number before it launches and a readout after it ends. I build the reporting so reps, managers, and leadership are all looking at the same accounts and the same results.</p>
+  </div>
+  <div class="kgrid">
+    <div class="klist">
+      <div class="kbox"><h3>For reps</h3><ul><li>Activity on their target accounts</li><li>Inbound and outbound leads over the last 12 months</li><li>Daily tasks due for each target account</li></ul></div>
+      <div class="kbox"><h3>For sales managers</h3><ul><li>Target accounts per rep and % with activity</li><li>Prospects in active sequences, per account</li><li>% of target accounts with open opportunities</li><li>% of accounts without an opp that got a marketing touch in 30 days</li></ul></div>
+      <div class="kbox"><h3>For leadership</h3><ul><li>Pipeline sourced and influenced, by program</li><li>Return on program spend</li><li>Meeting hold rate and SAL conversion</li><li>Coverage, performance, and MQL dashboards (Shopify)</li></ul></div>
+    </div>
+    <div>
+      <img class="shot" src="img/kpi-heatmap.jpg" alt="Team alignment view showing marketing and SDR activity against each AE's target accounts" style="border-radius:16px;border:1px solid var(--line);box-shadow:0 20px 50px rgba(31,42,58,.16)">
+      <p class="cap">The team alignment view: the marketing and SDR “levers” pulled against every AE’s target accounts, every week, so nothing hides.</p>
+    </div>
+  </div>
+  <div class="promise">
+    <div><b>Before launch</b><p>A clear goal, a target audience, and the KPI we’ll be judged on.</p></div>
+    <div><b>Every week</b><p>The same dashboard for Sales and Marketing, so problems surface early.</p></div>
+    <div><b>After every program</b><p>What it cost, what it created, and whether we scale it, fix it, or stop it.</p></div>
+  </div>
+</div></section>
+
+<section><div class="wrap ai">
+  <div>
+    <p class="eyebrow">How I use AI</p>
+    <h2 style="font-size:clamp(1.8rem,4vw,2.5rem);line-height:1.1">AI does the first 80%. I own the judgment.</h2>
+    <ol class="manifesto" style="margin-top:24px">
+      <li><b>Use it every day, not as a novelty.</b><span>Research, first drafts, analysis, and the busywork in between.</span></li>
+      <li><b>Build it, don’t wait for it.</b><span>If a report or audience needs engineering time, I build it myself with AI coding tools.</span></li>
+      <li><b>Trust, then verify.</b><span>Every number gets checked before it reaches a sales leader.</span></li>
+      <li><b>Share what works.</b><span>A workflow that helps me should help the whole team.</span></li>
+    </ol>
+  </div>
+  <div class="built">
+    <p class="eyebrow">What I’ve built</p>
+    <div><b>Target audiences in BigQuery (Shopify)</b><p>Used Cursor to write and refine the queries behind our Commercial target audiences, without waiting on the data team.</p></div>
+    <div><b>LinkedIn and email dashboards (Shopify)</b><p>Built coverage, performance, and MQL reporting with AI coding tools, so Sales and Marketing read the same numbers every week.</p></div>
+    <div><b>An AI-run job search (right now)</b><p>A daily workflow I set up with Claude that scans my inbox for replies, updates my tracker, screens new roles against my criteria, and drafts tailored materials. It’s how I’m running this search.</p></div>
+  </div>
+</div></section>
+
+<section class="alt"><div class="wrap">
+  <div class="head">
+    <p class="eyebrow">More recent work</p>
+    <h2>Demand generation, end to end</h2>
+  </div>
+  <div class="cards">
+    <div class="card"><p class="co">Shopify · 2025–2026</p><h3>Commercial email &amp; ABM engine</h3><p><span class="big">$12M</span> paid media budget at ~1.3x ROI across AMER, EMEA, and APAC. Ran every Commercial email program: nurtures, sales-led outbound, and 1:1, 1:Few, and 1:Many ABM.</p></div>
+    <div class="card"><p class="co">Superhuman · 2025</p><h3>Webinar program</h3><p><span class="big">12</span> webinars in six months as a repeatable rhythm, from planning and promotion through sales follow-up, plus MQL follow-up and SDR enablement with Sales leadership.</p></div>
+    <div class="card"><p class="co">Field programs · 2023–2024</p><h3>Field marketing in new markets</h3><p><span class="big">300K+</span> leads from event prospecting across seven new vertical markets, with two to three events a month.</p></div>
+    <div class="card"><p class="co">Field programs · 2023–2024</p><h3>SDR playbooks &amp; incentives</h3><p><span class="big">24</span> SDR playbooks across five personas and seven markets, a 30+ rep incentive program, and Sendoso direct mail at 3x ROI.</p></div>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <div class="head"><p class="eyebrow">Toolbox</p><h2>Platforms I’ve worked in</h2></div>
+  <div class="tools">
+    <span>Salesforce</span><span>6sense</span><span>Demandbase</span><span>Outreach</span><span>Salesloft</span><span>Pardot</span><span>BigQuery</span><span>LinkedIn Ads</span><span>Sendoso</span><span>ZoomInfo</span><span>Sales Navigator</span><span>Mutiny</span><span>Splash</span><span>Bizzabo</span><span>Claude</span><span>Cursor</span>
+  </div>
+</div></section>
+
+<footer><div class="wrap">
+  <h2>Let’s build your pipeline.</h2>
+  <p style="margin:0 0 20px">Based in Tampa, FL. Open to remote B2B demand generation and ABM roles.</p>
+  <a class="btn solid" href="mailto:shaunabanning@gmail.com">shaunabanning@gmail.com</a>
+  <a class="btn" href="https://www.linkedin.com/in/shaunabanning" target="_blank" rel="noopener">LinkedIn</a>
+</div></footer>
+
+<script>
+document.querySelectorAll('.fc').forEach(c=>c.addEventListener('click',()=>c.classList.toggle('on')));
+</script>
+</body>
+</html>
